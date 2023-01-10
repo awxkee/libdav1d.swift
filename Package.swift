@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "libdav1d",
-    platforms: [.iOS(.v11), .macOS(.v11), .macCatalyst(.v14)],
+    platforms: [.iOS(.v11), .macOS(.v11), .macCatalyst(.v14), .tvOS(.v11), .watchOS(.v5)],
     products: [
         .library(
             name: "libdav1d",
